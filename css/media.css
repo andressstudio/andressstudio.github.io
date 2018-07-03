@@ -69,7 +69,9 @@
 	flex-wrap: wrap;
 }
 .services__block {
-	width: 40%;
+	width: 250px;
+	
+
 }
 .clients__logo {
 	display: flex;
@@ -177,7 +179,8 @@
 		font-size: 16px;
 	}
 	.services__block {
-		width: 100%;
+	width: 250px;
+}
 	}
 	.team__block {
 		width: 100%;
@@ -211,11 +214,12 @@
     align-items: flex-start;
     justify-content: center;
 }	
-    	.team__block {
+ .team__block {
 	width: 100%;
 }
+
 .services__block {
-	width: 100%;
+	width: 250px;
 }
 
 	.header__title {

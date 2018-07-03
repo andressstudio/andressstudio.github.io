@@ -41,7 +41,7 @@
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
-	margin: 35px 0;
+	padding-top: 30px;
 }
 .about__image {
 	margin: 0 auto;
@@ -126,6 +126,11 @@
 
 @media screen and (max-width: 695px) {
 
+.otzivi h2{
+	color: #fff;
+	font-size: 45px;
+}
+
 .m-menu {
     width: 35%;
     align-items: flex-start;
@@ -195,6 +200,10 @@
     display: none;
 }
 
+.otzivi h2{
+	color: #fff;
+	font-size: 35px;
+}
 
 
 .m-menu {

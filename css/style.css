@@ -81,6 +81,8 @@ a {
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
+	width: 100%;
+	position: fixed;
 }
 .logo {
 	margin-left: 5%;
@@ -163,13 +165,13 @@ box-shadow: 4px -2px 65px -1px rgba(0,0,0,0.53);
 }
 
 .header__text {
-	margin-top: 209px;
 	text-align: center;
 }
 .header__title {
 	font-family:monoton,fantasy;
     text-shadow: rgba(0, 0, 0, 0.298039) 0px 5px 0px;
 	font-size:159px;
+	padding-top: 170px;
 	color: white;
 	font-weight: 300;
 	text-transform: uppercase;
@@ -192,15 +194,15 @@ box-shadow: 4px -2px 65px -1px rgba(0,0,0,0.53);
 
 /*About section*/
 .about {
-	background-color: #fff;
+	background-color:   #f2f2f2;
 }
 .about__image-text {
-	margin-top: 100px;
+	padding-top: 100px;
 	display: flex;
 }
 .about__image  {
 	width: 100%;
-	margin-right: 170px;
+	margin-right: 100px;
 	margin-bottom: 100px;
 	display: block;
 }
@@ -210,9 +212,9 @@ box-shadow: 4px -2px 65px -1px rgba(0,0,0,0.53);
 .about__title {
 	display: inline-block;
 	font-size: 34px;
-	color: #222;
+	color: #111;
 	text-transform: uppercase;
-	border-bottom: 4px solid #fcac45;
+	border-bottom: 4px solid #fec501;
 	padding-bottom: 15px;
 	font-weight: 400;
 }
@@ -220,11 +222,13 @@ box-shadow: 4px -2px 65px -1px rgba(0,0,0,0.53);
 	font-weight: 700;
 }
 .about__text {
-	margin-top: 30px;
 
+  
 	font-size: 18px;
 	font-weight: 400;
 	color: #6c6c6c;
+	padding-bottom: 15px;
+
 }
 .about__list {
 	margin-top: 40px;
@@ -244,6 +248,24 @@ box-shadow: 4px -2px 65px -1px rgba(0,0,0,0.53);
 	font-size: 14px;
 	margin-right: 5px;
 }
+/*results section*/
+
+.otzivi {
+	background-color: #000;
+	background-image: url("../img/otz_back.jpg");
+	background-size: cover;
+	width: 100%;
+}
+
+.otzivi h2{
+	color: #fff;
+	font-size: 55px;
+}
+
+.otzivi .line__sections{
+	background-color: #fff;
+}
+
 /*results section*/
 .results {
 	background-color: #fff;

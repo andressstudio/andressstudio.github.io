@@ -244,11 +244,21 @@ box-shadow: 4px -2px 65px -1px rgba(0,0,0,0.53);
 	font-size: 14px;
 	margin-right: 5px;
 }
-/*team section*/
-.team {
+/*results section*/
+.results {
+	background-color: #fff;
+	background-image: url("../img/back_res.jpg");
+	background-size: cover;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+.results .container {
 	background-color: #fff;
 }
+
 .team__content {
+	
 	margin-top: 130px;
 	display: flex;
 	justify-content: center;

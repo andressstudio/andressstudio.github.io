@@ -342,7 +342,7 @@ box-shadow: 4px -2px 65px -1px rgba(0,0,0,0.53);
 .services__content {
 	margin-top: 98px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	flex-wrap: wrap;
 	width: 100%;
 }

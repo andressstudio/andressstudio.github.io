@@ -37,11 +37,21 @@ a {
 .title__sections {
 	padding-top: 100px;
 	margin-bottom: 15px;
-	font-size: 44px;
+	font-size: 54px;
 	font-weight: 600;
 	text-align: center;
-	color: #fff;
+	color: #880003;
 	text-transform: uppercase;
+}
+
+.title__sections_down {
+	padding-top: 10px;
+	margin-bottom: 30px;
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
+	color: #111;
+	
 }
 .darck {
 	color: #222;
@@ -52,7 +62,7 @@ a {
 .line__sections {
 	width: 98px;
 	height: 4px;
-	background-color: #fcac45;
+	background-color: #880003;
 	display: block;
 	margin: 0 auto;
 }
@@ -109,6 +119,9 @@ a {
 	line-height: 3;
 	background-color: #FFF;
 	opacity: 1;
+	-webkit-box-shadow: 4px -2px 65px -1px rgba(0,0,0,0.53);
+-moz-box-shadow: 4px -2px 65px -1px rgba(0,0,0,0.53);
+box-shadow: 4px -2px 65px -1px rgba(0,0,0,0.53);
 	z-index: 9999;
 	display: flex;
 	flex-direction: column;
@@ -233,16 +246,28 @@ a {
 }
 /*team section*/
 .team {
-	background-color: #000;
+	background-color: #fff;
 }
 .team__content {
 	margin-top: 130px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 }
+
+.t_sec {
+    margin-top: 0px;
+}
+
 .team__block {
-	width: 23%;	
-	text-align: center;
+		text-align: center;
+}
+
+.team__block img{
+	max-width: 500px ;
+	width: 90%;
+	margin-bottom: 10%;
+	
+
 }
 .team__circle {
 	width: 127px;

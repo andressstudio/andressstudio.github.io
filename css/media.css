@@ -10,6 +10,11 @@
     justify-content: center;
 }
 
+.team_img_7 {
+    visibility: hidden;
+    display: none;
+}
+
 .visible-lg {
 	display: none;
 }
@@ -57,7 +62,7 @@
 	flex-wrap: wrap;
 }
 .team__block {
-	width: 40%;
+	width: 50%;
 }
 .services__content {
 	display: flex;
@@ -184,6 +189,13 @@
 }
 
 @media screen and (max-width: 440px) {
+
+.team_img_7, .team_img_8, .team_img_9, .team_img_10, .team_img_11 {
+    visibility: hidden;
+    display: none;
+}
+
+
 
 .m-menu {
     width: 50%;

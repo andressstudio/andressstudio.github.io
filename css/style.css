@@ -31,6 +31,7 @@ a {
 
 .container {
 	width: 90%;
+
 	margin: 0 auto;
 }
 .title__sections {
@@ -66,6 +67,15 @@ a {
 	margin: 0 auto;
 }
 /*Header section*/
+
+.header_next {
+	
+	
+
+
+
+}
+
 .header {
 	background-color: #000;
 	background-image: url("../img/rosbackground.jpg");
@@ -82,7 +92,6 @@ a {
 	flex-wrap: wrap;
 	width: 100%;
 	position: fixed;
-	z-index: 9998;
 }
 .logo {
 	margin-left: 5%;
@@ -145,7 +154,6 @@ box-shadow: 4px -2px 65px -1px rgba(0,0,0,0.53);
 	top: 5px;
 	right: 29px;
 	font-size: 35px;
-	z-index: 9999;
 }
 .close-menu a {
 	color: black;
@@ -329,6 +337,9 @@ box-shadow: 4px -2px 65px -1px rgba(0,0,0,0.53);
 	margin-bottom: 130px;
 }
 /*Services section*/
+.services {
+background-color:   #d9d9d9;
+}
 .services__text {
 	width: 500px;
 	margin: 0 auto;
@@ -348,6 +359,7 @@ box-shadow: 4px -2px 65px -1px rgba(0,0,0,0.53);
 	width: 100%;
 	height: 100%;
 	padding-bottom: 20px;
+	
 }
 .services__block {
 	width: 250px;
@@ -413,68 +425,191 @@ box-shadow: 4px -2px 65px -1px rgba(0,0,0,0.53);
  -webkit-box-shadow:inset 0,0,0px 0,0,0px -1,-1,-1px #ffffff,#ffffff,#ffffff;  -moz-box-shadow:inset 0px 0px -1px #ffffff;  box-shadow:inset 0px 0px -1px #ffffff;  
   
  }
-	
+
+/* beznal html*/
+
+.pay_info_next {
+	height: 90vh;
 }
-.icon__item {
-	font-size: 60px;
-	border-radius: 50%;
-	border: 5px solid #fcac45;
-	padding: 35px;
-}
-.icon__item-mobile {
-	font-size: 60px;
-	border-radius: 50%;
-	border: 5px solid #fcac45;
-	padding: 35px 50px;
-}
-.services__title {
-	font-size: 25px;
-	text-transform: uppercase;
-	font-weight: 600;
-	color: #222;
-	margin-top: 20px;
-}
-.services__discription {
-	font-size: 14px;
-	font-weight: 400;
-	color: #222;
-	margin-top: 15px;
-}
-/* services section*/
-.clients {
-	background-color: #000;
-}
-.clients__logo {
-	margin-top: 112px;
+
+.pay_info_text__block a{
 	display: flex;
-	justify-content: space-around;
-	padding-bottom: 200px;
-}
-/*Work section*/
-.work {
+	flex-direction: column; 
+	justify-content: center;
+
 
 }
-.work__text {
-	width: 70%;
+
+.img_next_block {
+	margin-top: 0px !important;
+}
+
+
+.pay_more {
+	text-decoration:none; 
+	text-align:center; 
+    font:19px Arial, Helvetica, sans-serif; 
+ font-weight:; 
+ color:black; 
+ background-color:white; 
+ border-radius: 5px;
+ padding: 5px;
+
+ margin-bottom: 10px;
+     
+}
+
+.pay_more:hover {
+	text-decoration:none; 
+	text-align:center; 
+    font:19px Arial, Helvetica, sans-serif; 
+ font-weight:; 
+ color:#b30000; 
+ background-color:white; 
+ border-radius: 5px;
+ padding: 5px;
+
+ margin-bottom: 10px;
+     
+}
+
+
+/*Pay info*/
+
+.pay_title {
+	color: white;
+
+} 
+
+.pay_line {
+	background-color: white;
+}
+
+.pay_info {
+background-color:   #b30000;
+}
+.pay_info__text {
+	width: 500px;
 	margin: 0 auto;
 	margin-top: 55px;
+	color: #fff;
 	font-size: 16px;
-	color: #6c6c6c;
-	text-align: center;
 	font-style: italic;
-}
-.work__logo {
-	margin-top: 175px;
-	margin-bottom: 65px;
-}
-.work__logos {
-	margin-bottom: 35px;
+	text-align: center;
 	display: flex;
-	justify-content: space-between;
+	flex-wrap: wrap;
 }
-.work__logo img {
-	width: 100%;
+
+
+
+.pay_info__content {
+	margin-top: 98px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+	padding-bottom: 20px;
+	
 }
+.pay_info__block {
+	width: 250px;
+	text-align: center;
+	margin-bottom: 100px;
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+
+.pay_info__block img {
+	width: 250px;
+	}
+
+/*logo_pay section*/
+.logo_pay__block {
+	text-align: center;
+	
+}
+
+.logo_pay__block img {
+	width:80%;
+	
+}
+
+/*delivery info*/
+
+.del_title {
+	color: #111;
+
+} 
+
+.del_line {
+	background-color: #111;
+}
+
+.del_info {
+background-color:    #d9d9d9;
+}
+.del_info__text {
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 55px;
+	color: #fff;
+	font-size: 16px;
+	font-style: italic;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+.del_info__content {
+	margin-top: 48px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+	padding-bottom: 20px;
+	
+}
+.del_info__block {
+	width: 250px;
+	text-align: center;
+	margin-bottom: 100px;
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+
+.del_info__block img {
+	width: 250px;
+	}
+
+
+/* social section*/
+.social {
+	background-color: #b30000;
+}
+
+.social .title__sections  {
+	padding-top: 20px;
+	color: white;
+}
+.social .line__sections {
+	background-color: white;
+}
+ 
+
+
+.social__logo {
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 40px;
+}
+.social__item img{
+
+	width: 90px;
+
+}
+
 /*testimonials section*/
 .testimonials {
 	background-color: #000;

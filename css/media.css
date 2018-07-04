@@ -70,8 +70,6 @@
 }
 .services__block {
 	width: 250px;
-	
-
 }
 .clients__logo {
 	display: flex;
@@ -128,6 +126,22 @@
 
 @media screen and (max-width: 695px) {
 
+.social__item {
+
+	width: 15%;
+
+}
+
+.social__item img{
+
+	width: 100%;
+
+}
+
+.pay_info__text {
+	width: 70%;
+	}	
+
 .otzivi h2{
 	color: #fff;
 	font-size: 45px;
@@ -179,8 +193,7 @@
 		font-size: 16px;
 	}
 	.services__block {
-	width: 250px;
-}
+		width: 100%;
 	}
 	.team__block {
 		width: 100%;
@@ -214,10 +227,9 @@
     align-items: flex-start;
     justify-content: center;
 }	
- .team__block {
+    	.team__block {
 	width: 100%;
 }
-
 .services__block {
 	width: 250px;
 }

@@ -160,16 +160,27 @@ font-size: 25px;
 
 
 
-
-
-
-.header {
-	
- background-image: url(../img/back.jpg);
-	background-size: cover;
-	width: 100%;
-	
+.top_pic  {
+	position: relative;
+    width: 100%;
+    background-color: #2d2d2d;
+    height: 55vh;
 }
+
+.top_pic img {
+	padding-top:200px;
+	width: 40%;
+}
+
+
+
+
+
+.he1  {
+  background-color: #ffc000; 
+  height: 30vh;
+}
+
 .header__logo {
 	background-color: white;
 	display: flex;
@@ -372,16 +383,27 @@ padding-top:20px;
 
 .header__text {
 	text-align: center;
-	height: 100vh;
+    height: 90vh;
+       padding-top: 112px;
 
+    background: linear-gradient(to bottom, #2d2d2d 50%, #ffc000 0%);
 }
 
-
-.header__text img {
-	padding-top: 170px;
-	width: 40%;
-	
+.phones {
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
+
+.phones img {
+	width: 400px;
+}
+
+.phone_section {
+	background-image: url(../img/back-p.jpg);
+}
+
 .header__title {
 	font-family:monoton,fantasy;
     text-shadow: rgba(0, 0, 0, 0.298039) 0px 5px 0px;

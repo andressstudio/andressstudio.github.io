@@ -3,12 +3,17 @@
 	margin: 0;
 	padding: 0;
 }
+
+html {
+	overflow-x: hidden !important;
+}
+
 body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
 	background-color: #ffc000;
-	overflow-x: hidden;
+	overflow-x: hidden !important;
 }
 ul, li {
 	display: block;
